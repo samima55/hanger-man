@@ -1,14 +1,24 @@
 import React, { useState } from 'react';
-import './App.css';
+import style from './App.module.css';
 import words from "./assest/wordList.json";
+import HangmanWordGuess from './copmponents/HangmanWordGuess';
+import HangmanDrawing from './copmponents/HangmanDrawing';
+import Keyboard from './copmponents/keyboard';
 function App() {
   const [wordToGuess , setWordToGuess]=useState(()=>{
     return words[Math.floor(Math.random() * words.length)]
   })
-  console.log(wordToGuess)
+  const [guessedLetters, setGuessedLetters]= useState<string[]>([])
 
   return (
-   <div></div>
+   <div className={style.container}>
+    <div className={style.winlose}>
+    Lose win
+    </div>
+    <HangmanDrawing/>
+    <HangmanWordGuess/>
+     <Keyboard/>
+   </div>
   );
 }
 
