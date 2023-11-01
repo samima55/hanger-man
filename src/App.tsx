@@ -3,7 +3,8 @@ import style from './App.module.css';
 import words from "./assest/wordList.json";
 import HangmanWordGuess from './copmponents/HangmanWordGuess';
 import HangmanDrawing from './copmponents/HangmanDrawing';
-import Keyboard from './copmponents/keyboard';
+import Keyboard from './copmponents/Keyboard';
+
 function App() {
   const [wordToGuess , setWordToGuess]=useState(()=>{
     return words[Math.floor(Math.random() * words.length)]

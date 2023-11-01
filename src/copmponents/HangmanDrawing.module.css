@@ -3,3 +3,28 @@
 .container{
     position: relative;
 }
+.hanger{
+    height: 300px;
+    width: 15px;
+    background-color: black;
+    margin-left: 145px;
+}
+.hangerWood{
+    height: 15px;
+    width: 200px;
+    background-color: black;
+    margin-left: 145px;
+}
+.hangerMouth{
+    height: 50px;
+    width: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bottomLine{
+    height: 15px;
+    width: 300px;
+    background-color: black;
+}

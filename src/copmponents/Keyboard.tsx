@@ -1,9 +1,8 @@
 
-function Keyborad (){
+function Keyboard (){
     return(
         <div></div>
-     )
-    
+    )
 }
 
-export default Keyborad;
+export default Keyboard;
