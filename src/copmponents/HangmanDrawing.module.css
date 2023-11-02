@@ -4,7 +4,7 @@
     position: relative;
 }
 .hanger{
-    height: 300px;
+    height: 350px;
     width: 15px;
     background-color: black;
     margin-left: 145px;
@@ -37,4 +37,13 @@
     position: absolute;
     top: 49px;
     right: -32px;
+}
+
+.body{
+    width: 15px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    right: 0px;
 }

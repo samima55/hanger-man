@@ -6,11 +6,16 @@ const HEAD =(
   </div>
 )
 
+const BODY =(
+  <div className={style.body}>
 
+  </div>
+)
 function HangmanDrawing() {
   return (
     <div className={style.container}>
       {HEAD}
+      {BODY}
       <div className={style.hangerMouth} />
       <div className={style.hangerWood} />
       <div className={style.hanger} />
