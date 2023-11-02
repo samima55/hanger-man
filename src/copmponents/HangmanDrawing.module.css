@@ -47,3 +47,33 @@
     top: 120px;
     right: 0px;
 }
+
+.rightArm{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    rotate: -30deg;
+    transform-origin: left bottom ;
+}
+
+.leftArm{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 180px;
+    right: 10px;
+    rotate: 30deg;
+    transform-origin: right bottom ;
+}
+
+.rightLeg{
+    
+}
+
+.leftLeg{
+
+}
