@@ -28,3 +28,13 @@
     width: 300px;
     background-color: black;
 }
+
+.head{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 15px solid black;
+    position: absolute;
+    top: 49px;
+    right: -32px;
+}
