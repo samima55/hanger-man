@@ -71,9 +71,23 @@
 }
 
 .rightLeg{
-    
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 230px;
+    right: -90px;
+    rotate: 60deg;
+    transform-origin: left bottom ;
 }
 
 .leftLeg{
-
+width: 100px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 230px;
+    right: 5px;
+    rotate: -60deg;
+    transform-origin: right bottom ;
 }
